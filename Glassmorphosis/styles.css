@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.outer-box{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(212, 144, 212);
+    overflow-y:auto;
+}
+
+.inner-box{
+    width:400px;
+    padding: 10px 40px;
+    margin: 10px auto;
+    position: relative;
+    top: 40%;
+    transform: translateY(-50%);
+    background: linear-gradient(to top right ,#ffffff,#ffffff33);
+    backdrop-filter: blur(10px);
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px #2773a5;
+    z-index: 2;
+}
+
+header p{
+font-size: 0.95rem;
+color: #333;
+}
+
+.main-body{
+    margin: 20px 0;
+}
+
+.main-body p {
+    margin: 10px 0;
+}
+
+.main-body p label{
+    display: block;
+    color: black;
+}
+
+.main-body p input{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #cccc;
+    border-radius: 4px;
+    font-size: 1rem; 
+    margin-top: 4px;
+}
+.main-body #submit{
+background-color: cornflowerblue;
+border: none;
+color: white;
+cursor: pointer;
+}
+.main-body #submit:hover{
+    background-color: rgb(37, 97, 207);
+}
+
+.signup-footer p{
+color: #555;
+text-align: center;
+}
+
+.signup-footer p a{
+    color: rgb(37, 97, 207);
+}
+
+
+.circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background:linear-gradient(to top right,#fdfdfd6b, #ffffff);
+    position: absolute;
+}
+
+.c1 {
+    top: 100px;
+    left: 40px;
+}
+
+.c2{
+    bottom: 40px;
+    right: 100px;
+}
